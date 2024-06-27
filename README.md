@@ -23,7 +23,17 @@ npm i -g @nest/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de datos, GET en postman - Usar sólo en desarrollo
+5. Clonar el archivo **.env.template** y renombrar la copia a **.env**
+
+6. Llenar las variables de entorno definidas en el **.env**
+
+7. Ejecutar la aplicación en dev:
+
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de datos, GET en postman - Usar sólo en desarrollo
 
 ```
 http://localhost:3000/api/v2/seed
